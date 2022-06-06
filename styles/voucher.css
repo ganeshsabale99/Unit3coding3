@@ -1,0 +1,16 @@
+#voucher_list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:5px;
+}
+#voucher_list>div{
+
+    border:2px solid skyblue;
+    text-align: center;
+}
+
+.voucher{
+    display: flex;
+    justify-content: space-evenly;
+}
